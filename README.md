@@ -5,4 +5,9 @@ OCP Java 11 preperation.
 JVM JAVAC , classes, main() Method
 Packages, compiling JAR, running one line. 
 
+# Chapter2 
+Data types references 
+
+# Chapter3
+Operators 
 
