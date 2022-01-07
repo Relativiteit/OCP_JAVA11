@@ -14,5 +14,11 @@ Operators
 ## Chapter4 
 Switch statements 
 
+## Chapter5 
+\t tab \n newline \r carriage return 
+strip() does everything trim() does but supports unicode. 
+#### Stringbuilder 
+The StringBuilder class creates a Sting without storing all interim String Values. StringBuilder is not immutable.
 
+## Chapter6 Lambdas and Functional Interfaces 
 
