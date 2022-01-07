@@ -6,11 +6,12 @@ public class TraditionalSearch {
         List<Animal> animals = new ArrayList<Animal>();
         animals.add(new Animal("fish", false, true));
         animals.add(new Animal("kangaroo", true, true));
-        animals.add(new Animal("rabbit", true, true));
+        animals.add(new Animal("rabbit", true, false));
         animals.add(new Animal("turtle", false, true));
 
         // pass class that does check
-        print(animals, new CheckIfHopper());
+        //   print(animals, new CheckIfHopper());
+        print(animals, a -> a.canSwim());
     }
     private static void print(List<Animal> animals,
                               CheckTrait checker){

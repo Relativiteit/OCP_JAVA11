@@ -21,6 +21,8 @@ strip() does everything trim() does but supports unicode.
 The StringBuilder class creates a Sting without storing all interim String Values. StringBuilder is not immutable.
 
 ## Chapter6 Lambdas and Functional Interfaces 
-extra
-test 
+Having one abstract method is what makes a functional interface. SAM Single Abstract Method. 
+
+#### predicate
+
 
