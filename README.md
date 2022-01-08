@@ -26,3 +26,4 @@ Having one abstract method is what makes a functional interface. SAM Single Abst
 #### predicate
 
 
+## Chapter7 
