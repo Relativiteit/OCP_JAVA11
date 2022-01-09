@@ -23,6 +23,11 @@ The StringBuilder class creates a Sting without storing all interim String Value
 ## Chapter6 Lambdas and Functional Interfaces 
 Having one abstract method is what makes a functional interface. SAM Single Abstract Method. 
 
-#### predicate
+#### Lambda 
+Predicate is a common interface that returns a boolean and takes any type.
+Consumer takes any type and doesn't return a value.
+Supplier returns a value and does not take any parameters. 
+Comparator takes two parameter and returns and int.
+
 
 
