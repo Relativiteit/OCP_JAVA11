@@ -31,4 +31,5 @@ Comparator takes two parameter and returns and int.
 
 
 
-## Chapter7 
+## Chapter7 Methods and Encapsulation 
+
