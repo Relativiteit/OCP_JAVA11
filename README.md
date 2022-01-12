@@ -33,3 +33,10 @@ Comparator takes two parameter and returns and int.
 
 ## Chapter7 Methods and Encapsulation 
 
+## Chapter21 JDBC
+Driver: Establishes a connection to the database.
+Connection: Sends commands to a database.
+PreparedStatement: Executes a SQL query.
+CallableStatement: Executes commands stored in the database.
+ResultSet: Reads results of a query.
+
