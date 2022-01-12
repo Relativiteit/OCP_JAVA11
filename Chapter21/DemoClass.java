@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 /*
     * 1. Import ---> java.sql
-    * 2. Load and register the driver ---> com.mysql.jdbc.Driver
+    * 2. Load and register the driver ---> com.mysql.cj.jdbc.Driver
     * 3. Create Connection ---> Connection
     * 4. Create a statement ---> Statement
     * 5. Execute the query
