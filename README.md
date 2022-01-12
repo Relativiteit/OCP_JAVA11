@@ -40,3 +40,4 @@ PreparedStatement: Executes a SQL query.
 CallableStatement: Executes commands stored in the database.
 ResultSet: Reads results of a query.
 
+Bind variable : is a placeholder that lets you specify the actual values at runtime. 
