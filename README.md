@@ -32,12 +32,25 @@ Comparator takes two parameter and returns and int.
 
 
 ## Chapter7 Methods and Encapsulation 
+Private protected public or default access 
+
+## Chapter8 Class Design 
+Extend classes 
+
+### This This() super and super() 
+
+ 
 
 ## Chapter21 JDBC
-Driver: Establishes a connection to the database.
-Connection: Sends commands to a database.
-PreparedStatement: Executes a SQL query.
-CallableStatement: Executes commands stored in the database.
-ResultSet: Reads results of a query.
-
-Bind variable : is a placeholder that lets you specify the actual values at runtime. 
+#### Driver
+Establishes a connection to the database.
+#### Connection
+Sends commands to a database.
+#### PreparedStatement
+Executes a SQL query.
+#### CallableStatement
+Executes commands stored in the database.
+#### ResultSet
+Reads results of a query.
+#### Bind variable 
+is a placeholder that lets you specify the actual values at runtime. 

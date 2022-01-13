@@ -19,7 +19,7 @@ import java.sql.DriverManager;
 public class DemoClass {
     public static void main (String[] args) throws Exception
     {
-        String url = "jdbc:mysql://localhost:3306/alien?allowPublicKeyRetrieval=true&useSSL=false";
+        String url = "jdbc:mysql://localhost:3306/alien?allowPublicKeyRetrieval=true&useSSL=false"; 
         String uname = "admin";
         String pass = "password";
         String query = "select username from student where userid=3";
