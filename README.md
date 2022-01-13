@@ -43,8 +43,11 @@ Extend classes
 
 ## Chapter11 Modules 
 
-### This This() super and super() 
-
+### This, This(), super and super() 
+This: To access a current o r inherited member of a class 
+super: To access an inherited member the super reference can be used. 
+this(): access constructors in the same class. 
+super(): to access constructors in the same parent class 
  
 
 ## Chapter21 JDBC
