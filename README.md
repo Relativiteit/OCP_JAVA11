@@ -37,6 +37,12 @@ Private protected public or default access
 ## Chapter8 Class Design 
 Extend classes 
 
+## Chapter9 Advanced Class Design 
+
+## Chapter10 Exceptions
+
+## Chapter11 Modules 
+
 ### This This() super and super() 
 
  
