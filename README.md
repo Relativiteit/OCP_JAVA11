@@ -63,3 +63,6 @@ Executes commands stored in the database.
 Reads results of a query.
 #### Bind variable 
 is a placeholder that lets you specify the actual values at runtime. 
+
+#### doa
+use dao for jdbc connection 
