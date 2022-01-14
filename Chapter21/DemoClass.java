@@ -22,24 +22,21 @@ public class DemoClass {
         String url = "jdbc:mysql://localhost:3306/alien?allowPublicKeyRetrieval=true&useSSL=false"; 
         String uname = "admin";
         String pass = "password";
-        String query = "insert into student values (4, 'Mohini')";
+        int userid = 5;
+        String username = "Ali";
+        String query = "insert into student values (" + userid + ",'" + username + "')";
 
     Class.forName("com.mysql.cj.jdbc.Driver");
     Connection con = DriverManager.getConnection(url, uname, pass);
-    Statement st = con.createStatement();
-    st.executeQuery(query);
-    ResultSet rs = st.executeQuery(query)); // DDL, DML ,DQL
+    Statement st = con.createStatement(); // PreparedStatement
+    int count = st.executeUpdate(query); // DDL, DML ,DQL
         // DDL Data definition language change the structure of the database
         // DML Data manipulation language changing data inserting values updating existing rows
         // DQL Data query language fetching data query
 
-    String userData = "";
+        System.out.println(count + " row/s affected");
 
-    while(rs.next()) {
 
-        userData = rs.getInt(1) + " : " + rs.getString(2);
-        System.out.println(userData);
-    }
 
 
     st.close();
