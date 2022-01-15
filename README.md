@@ -36,6 +36,7 @@ Private protected public or default access
 
 ## Chapter8 Class Design 
 Extend classes 
+Inheritence
 
 ## Chapter9 Advanced Class Design 
 
