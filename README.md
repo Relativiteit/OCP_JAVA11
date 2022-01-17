@@ -39,7 +39,7 @@ Extend classes
 Inheritence
 
 ## Chapter9 Advanced Class Design 
-
+inheritance 
 ## Chapter10 Exceptions
 
 ## Chapter11 Modules 
@@ -67,3 +67,5 @@ is a placeholder that lets you specify the actual values at runtime.
 
 #### doa
 use dao for jdbc connection 
+
+
